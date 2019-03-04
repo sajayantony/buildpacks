@@ -1,0 +1,3 @@
+steps:
+  - cmd: {{.Run.Registry}}/pack:latest build {{.Run.Registry}}/buildpack:nodeapp-{{.Run.ID}}  -p .
+  - push: ["{{.Run.Registry}}/buildpack:nodeapp-{{.Run.ID}}"]
