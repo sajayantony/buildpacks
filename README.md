@@ -18,5 +18,5 @@ Build the sample node app using the [acr.yaml](node-app/acr.yaml)
 
 ```bash
 cd ./node-app/
-az acr run -f acr.yaml .
+az acr run .
 ```
